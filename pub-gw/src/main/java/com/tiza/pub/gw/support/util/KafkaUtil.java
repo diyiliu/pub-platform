@@ -58,11 +58,11 @@ public class KafkaUtil {
      */
     public static void send(String id, int cmd, String value, int flow) {
         Map map = Maps.newHashMap();
-        map.put("terminal", id);
+        map.put("device", id);
         map.put("cmd", cmd);
         map.put("time", System.currentTimeMillis());
         map.put("data", value);
-        map.put("flow", flow);
+        // map.put("flow", flow);
 
         KafkaMsg msg = new KafkaMsg();
         msg.setKey(id);
