@@ -1,8 +1,8 @@
-package com.tiza.pub.gw.support.config;
+package com.tiza.pub.gw.support;
 
 import com.tiza.pub.gw.netty.GwServer;
-import com.tiza.pub.gw.support.util.KafkaUtil;
-import com.tiza.pub.gw.support.util.SpringUtil;
+import com.tiza.pub.air.entry.KafkaUtil;
+import com.tiza.pub.air.util.SpringUtil;
 import kafka.javaapi.producer.Producer;
 import kafka.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;

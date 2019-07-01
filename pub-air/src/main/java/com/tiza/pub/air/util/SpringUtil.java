@@ -1,4 +1,4 @@
-package com.tiza.pub.gw.support.util;
+package com.tiza.pub.air.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

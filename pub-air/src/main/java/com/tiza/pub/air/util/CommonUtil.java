@@ -1,4 +1,4 @@
-package com.tiza.pub.gw.support.util;
+package com.tiza.pub.air.util;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -8,8 +8,11 @@
     <artifactId>pub-platform</artifactId>
     <packaging>pom</packaging>
     <version>2.0</version>
+
     <modules>
         <module>pub-gw</module>
+        <module>pub-rp</module>
+        <module>pub-air</module>
     </modules>
 
     <properties>
@@ -17,6 +20,30 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <spring.version>5.1.2.RELEASE</spring.version>
+        <kafka.version>0.8.2.2</kafka.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka_2.10</artifactId>
+                <version>${kafka.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

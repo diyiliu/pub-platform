@@ -1,7 +1,7 @@
 package com.tiza.pub.gw.protocol;
 
 import com.tiza.pub.gw.netty.common.BaseDecoder;
-import com.tiza.pub.gw.support.util.CommonUtil;
+import com.tiza.pub.air.util.CommonUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;

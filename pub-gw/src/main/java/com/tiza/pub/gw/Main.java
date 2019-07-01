@@ -1,7 +1,7 @@
 package com.tiza.pub.gw;
 
-import com.tiza.pub.gw.support.config.GwConfig;
-import com.tiza.pub.gw.support.util.SpringUtil;
+import com.tiza.pub.gw.support.GwConfig;
+import com.tiza.pub.air.util.SpringUtil;
 
 /**
  * Description: Main

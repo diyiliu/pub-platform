@@ -1,4 +1,4 @@
-package com.tiza.pub.gw.support.model;
+package com.tiza.pub.air.model;
 
 import lombok.Data;
 

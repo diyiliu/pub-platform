@@ -1,7 +1,8 @@
-package com.tiza.pub.gw.support.util;
+package com.tiza.pub.air.entry;
 
 import com.google.common.collect.Maps;
-import com.tiza.pub.gw.support.model.KafkaMsg;
+import com.tiza.pub.air.model.KafkaMsg;
+import com.tiza.pub.air.util.JacksonUtil;
 import kafka.javaapi.producer.Producer;
 import kafka.producer.KeyedMessage;
 import lombok.extern.slf4j.Slf4j;

@@ -1,8 +1,8 @@
 package com.tiza.pub.gw.protocol;
 
 import com.tiza.pub.gw.netty.common.BaseHandler;
-import com.tiza.pub.gw.support.util.CommonUtil;
-import com.tiza.pub.gw.support.util.KafkaUtil;
+import com.tiza.pub.air.util.CommonUtil;
+import com.tiza.pub.air.entry.KafkaUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
