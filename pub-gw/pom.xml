@@ -51,18 +51,16 @@
 
     <build>
         <finalName>gb6-gw</finalName>
+        <filters>
+            <filter>src/main/resources/profile/${env}.properties</filter>
+        </filters>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
-                <!-- 资源根目录排除各环境的配置，防止在生成目录中多余其它目录 -->
                 <excludes>
-                    <exclude>dev/*</exclude>
-                    <exclude>uat/*</exclude>
-                    <exclude>pro/*</exclude>
+                    <exclude>env/*</exclude>
                 </excludes>
-            </resource>
-            <resource>
-                <directory>src/main/resources/${env}</directory>
+                <filtering>true</filtering>
             </resource>
         </resources>
         <plugins>

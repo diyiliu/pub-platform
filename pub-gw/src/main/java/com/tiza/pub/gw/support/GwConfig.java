@@ -20,7 +20,7 @@ import java.util.Properties;
  */
 
 @Configuration
-@PropertySource("classpath:env.properties")
+@PropertySource("classpath:config.properties")
 public class GwConfig {
 
     @Resource
