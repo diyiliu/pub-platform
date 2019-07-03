@@ -126,7 +126,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.tiza.pub.gw.Main</mainClass>
+                            <mainClass>com.tiza.pub.rp.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
