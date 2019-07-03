@@ -79,11 +79,6 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <build>
-                <filters>
-                    <filter></filter>
-                </filters>
-            </build>
         </profile>
         <profile>
             <id>uat</id>
